@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    width:100%;
+    min-height:100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
+
+url("bg_background.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+} 
+nav {
+    display:FLEX;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width:100px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style:none;
+    display:inline-block;
+    padding:8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:honeydew;
+    text-decoration: none;  
+    font-size:15px;  
+}
+.nav-links ul li::after{
+    content: '';
+    width:0%;
+    height:2px;
+    background:goldenrod;
+    display: block;
+    margin: auto;
+    transition: 0.7s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+.Main-text-box{
+    width:90%;
+    color:honeydew;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.Main-text-box h1{
+    font-size: 50px;
+
+}
+.Main-text-box p{
+    margin:10px 0 40px;
+    font-size:15px ;
+    color:honeydew;
+
+
+}
+.Main-text-box a{
+    color:honeydew;
+}
+.jjk{
+    display: inline-block;
+    text-decoration: none;
+    color: honeydew;
+    border: 1px solid honeydew;
+    font-size:13px;
+    background: transparent;
+    position: relative;
+    padding: 12px 34px;
+    cursor: pointer;
+}
+.jjk:hover{
+    border: 1px solid goldenrod;
+    background: goldenrod;
+    transition:1s;
+
+}
+#loogin{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#signupp{
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
